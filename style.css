@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(3 22 52);
+  font-family: new-york;
+  color: floralwhite;
+}
+
+.topnav{
+  overflow: hidden;
+  background-color: #1a237e;
+  padding: 10px;
+}
+
+.topnav a{
+  font-family: "Times New Roman";
+  float: left;
+  display: block;
+  color: floralwhite;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.topnav .search-container{
+  float: right;
+}
+
+form{
+  background-color: floralwhite;
+  width: 300px;
+  height: 43px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  vertical-align: center;
+}
+
+input{
+  font: 15px, system-ui;
+  color: black;
+  height: 100%;
+  width: 100%;
+  padding: 6px 9px;
+}
+
+.thumbnail{
+  height: 360px;
+  width: 300px;
+  border-radius: 10px;
+}
+
+.column {
+  float: left;
+  width: 20%;
+  padding: 8px 8px;
+}
+
+.card {
+  border-radius: 10px;
+  height: 480px;
+  padding: 8px;
+  text-align: center;
+  background-color: #1a237e;
+}
+
+.comment {
+  border-radius: 10px;
+  height: 230px;
+  padding: 8px;
+  text-align: center;
+  background-color: #1a237e;
+}
